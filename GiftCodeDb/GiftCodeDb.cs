@@ -98,7 +98,7 @@ namespace GiftCodeDb
                 {
                     if (!connection.Ping())
                     {
-                        Logger.Error("connect.ping return fasle!!!");
+                        Logger.Error("connect.ping return false!!!");
                         Logger.Error("CheckConnection 1 !!! connect.state={0}", connection.State);
                         connection.Close();
                         Logger.Error("CheckConnection 2 !!! connect.state={0}", connection.State);
